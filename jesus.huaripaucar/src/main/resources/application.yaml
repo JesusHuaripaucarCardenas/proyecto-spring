@@ -1,0 +1,18 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: jesus.huaripaucar
+  data:
+    mongodb:
+      database: 18_jesus_huaripaucar
+      uri: mongodb+srv://jesushuaripaucar:angelo2024@cluster0.5houull.mongodb.net/?appName=Cluster0
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
